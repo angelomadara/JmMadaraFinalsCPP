@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 #include <string>
 
 using std::cout; using std::cin;
@@ -177,7 +176,7 @@ int main(){
     char convert_again; 
     cin >> convert_again;
     if(convert_again == 'y' || convert_again == 'Y'){
-        clrscr();
+        system("clear");
         goto start_again;
     }
     
